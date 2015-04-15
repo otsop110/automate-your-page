@@ -1,0 +1,86 @@
+/* This is a CSS comment. In my CSS file I assign values to body properties*/
+
+.lesson {
+	background-color: #99FFFF;
+	border-radius: 60px; /* The border-radius gives rounded corners.*/
+	padding: 10px;
+	margin: 10px auto;
+}
+.content {
+	background-color: #e6ffff;
+	padding: 4px;
+	margin: 10px;
+	border-radius: 60px;
+	color: black;
+}
+
+.content-title {
+	font-size: 30px;
+	margin: 8px;
+	text-align: center;
+	color: black;
+  	border-radius: 60px;
+}
+
+.content-description {
+  	font-size: 30em;
+	margin: 10px;
+  	border-radius: 60px;
+}
+
+.image {
+  	font-size: 30px;
+	margin: 10px;
+  	border-radius: 60px;
+}
+
+body {
+	padding: 60px;
+  	text-align: center;
+	font-family: monaco, monospace;
+  
+  	background: url(http://media.giphy.com/media/uH7JvseKVMojS/giphy.gif) 8%;
+  	background-size: cover;
+	max-width: 2000px;
+	margin: 10px 0; /* The 0 refers to the top and bottom margins and the "auto" automatically */
+	font-size: 1.6em;
+  	color: black;
+}
+h1, h2, h3, p {
+  	display: block;
+  	background-color: #99FFFF;
+  	text-align: center;
+  	color: #294860;
+	margin: 10px 0;
+  	border-radius: 60px;
+}
+h1 {
+  	font-size: 40px;
+  	padding: 30px;
+	margin: 10px auto;
+}
+h2 {
+  	font-size: 30px;
+  	margin: 10px auto;
+}
+h3 {
+	font-size: 20px
+}
+p {
+  	font-size: 20px;
+  	background-color: #e6ffff;
+}
+ul {
+	list-style-type: circle;
+  	font-size: 17px;/* this removes the bullets that show up by default in unordered lists */
+  	background-color: #e6ffff;}
+
+li {
+	font-size: 1.2em;/* em is another unit to specify font sizes (like px) this "em" refers to something different than the <em> tag. */
+	line-height: 1.5em; 
+}
+img {
+	background-color: #e6ffff;
+  	border-radius: 30px; 
+  	padding: 20px;
+  }
